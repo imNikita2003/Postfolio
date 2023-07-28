@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      .header {
+        height: 80px;
+        width: 100%;
+        background-color: black;
+      }
+
+      .logo h1 {
+        padding: 20px;
+        float: left;
+        display: flex;
+      }
+      .logo h1 a {
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+      }
+      .logo h1 p {
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+      .navbar {
+        margin-left: 700px;
+      }
+      .navbar a {
+        float: left;
+        padding-left: 30px;
+        margin: 20px;
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+      }
+      .section2 {
+        height: auto;
+
+        display: flex;
+        
+      }
+      .clear-both{
+        clear: both;
+      }
+      .first,
+      .second {
+        height: auto;
+        width: 45%;
+      }
+      .first h2,
+      .first h4 {
+        font-size: 20px;
+        padding: 10px;
+        margin: 20px;
+      }
+      form {
+        border: 2px solid black;
+      }
+
+      form input {
+        font-size: 25px;
+        margin: 15px;
+        width: 400px;
+        margin-left: 50px;
+        padding: 5px;
+      }
+      button {
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+      }
+
+      hr {
+        margin-top: 50px;
+        font-size: 20px;
+        color: black;
+      }
+      .contact {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+      }
+      .contact div a {
+        height: 100px;
+        width: 300px;
+        margin-left: 40px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header clear-both">
+      <div class="logo">
+        <h1>
+          <a href="#">NIKITA</a>
+          <p>Developer</p>
+        </h1>
+      </div>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Project</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </section>
+
+    <section class="clear-both section2" style="margin-top: 50px;">
+      <div class="first clear-both">
+        <h2 style="font-size: 40px;">CONTACT</h2>
+        <h4 style="font-size: 30px;">Looking forward to hearing from you</h4>
+      </div>
+      <div class="second">
+        <form>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Firstname"
+          />
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Lastname"
+          />
+          <input type="number" name="number" id="number" placeholder="Phone" />
+          <input
+            type="text"
+            name="address"
+            id="address"
+            placeholder="Address"
+          />
+          <input type="email" name="email" id="email" placeholder="email" />
+          <br />
+          <button>Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <br />
+    <hr />
+    <div class="contact clear-both">
+      <div><a href="#">PHONE : 7494986154</a></div>
+      <div><a href="#">EMAIL : nikitayadav6722@gmail.com</a></div>
+      <div><a href="#">ADDRESS :Rewari, Haryana</a></div>
+    </div>
+  </body>
+</html>
